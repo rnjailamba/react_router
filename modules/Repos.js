@@ -14,6 +14,8 @@ export default React.createClass({
           <li><Link to="/repos/reactjs/react-router">React Router</Link></li>
           <li><Link to="/repos/facebook/react">React</Link></li>
         </ul>
+        {/* add this */}
+        {this.props.children}
 
       </div>
     )
